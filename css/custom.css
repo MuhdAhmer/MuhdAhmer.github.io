@@ -1,0 +1,405 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+/*body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+*/
+.container{
+
+}
+#jumbotron{
+	background-color: #d82c2e;
+	text-align: center;
+	padding-bottom: 70px;
+
+}
+#jumbotron h1{
+	color: white;
+	font-family: AR BERKLEY;
+	font-size: 104px;
+}
+
+
+.img-circle {
+	margin-top: 75px;
+}
+
+#who h2{
+	text-align: center;
+	color: #d82c2e;
+}
+
+.container hr{
+	color: #d82c2e;
+	border-top: 1px solid;
+	margin-top: 40px;
+	margin-bottom: 43px;
+	width: 140px;
+}
+
+#who h1{
+	text-align: center;
+	color: #2c3d4f;
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: 5px;
+    line-height: 60px;
+    text-transform: uppercase;
+    margin-top: 63px;
+	margin-bottom: 44px;
+	
+}
+
+#who{
+	padding-bottom: 60px;
+
+}
+
+p.my-info{
+	font-weight: bold;
+	color: #7e878f;
+	font-size: 20px;
+	margin-top: 45px;
+	text-align: center;
+
+}
+
+p.sign{
+	font-family: AR DECODE;
+	font-size: 62px;
+	text-align: center;
+}
+
+
+
+#who .col-md-4 h3{
+	
+
+	text-align: center;
+	color: #2c3d4f;
+    font-size: 35px;
+    font-weight: 700;
+    
+    line-height: 60px;
+    text-transform: uppercase;
+	
+}
+
+.col-md-8 h3{
+	text-align: center;
+	color: #2c3d4f;
+    font-size: 35px;
+    font-weight: 700;
+    
+    line-height: 60px;
+    text-transform: uppercase;
+
+}
+.col-md-8{
+text-align: center;
+}
+#experience h1{
+	text-align: center;
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: 5px;
+    line-height: 60px;
+    text-transform: uppercase;
+    margin-top: 80px;
+	margin-bottom: 44px;
+	font-family: SketchFlow Print;
+	color: white;
+
+}
+#experience .col-md-4{
+	text-align: center;
+
+}
+
+#experience h2{
+	text-align: center;
+	color: white;
+    font-size: 35px;
+    font-weight: 700;
+    
+    line-height: 60px;
+    text-transform: uppercase;
+    font-family: SketchFlow Print;
+    
+
+}
+
+#experience hr{
+	color: white;
+}
+#experience p{
+	font-size: 24px;
+	font-family: SketchFlow Print;
+	color: white;
+}
+#experience{
+
+padding-bottom: 60px;
+background-color: #d82c2e
+}
+
+#skills{
+	padding-bottom: 50px;
+}
+
+#skills h1{
+	text-align: center;
+	color: #2c3d4f;
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: 5px;
+    line-height: 60px;
+    text-transform: uppercase;
+    margin-top: 60px;
+	margin-bottom: 44px;
+
+
+}
+
+#skills h2{
+	text-align: center;
+	color: #2c3d4f;
+    font-size: 35px;
+    font-weight: 700;
+    
+    line-height: 60px;
+    text-transform: uppercase;
+
+}
+
+
+#skills .col-md-3{
+	text-align: center;
+}
+
+footer {
+	padding-top: 50px;
+	padding-bottom: 30px;
+	position: relative;
+	background-color: #f5f5f5;
+}
+
+footer p{
+	color: #d82c2e;
+	font-size: 39px;
+	font-family: AR BERKLEY;
+
+}
+.progress{
+	background-color: white;
+	border: 4px solid;
+	border-radius: 11px;
+}
+
+#skills p{
+	font-size: 60px;
+	font-family: SketchFlow Print;
+	border-radius: 11px;
+}
+
+#back-to-top a{
+	color:#333 ;
+}
+
+#back-to-top{
+	position: absolute;
+	bottom: 30px;
+	right: 25px;
+}
+
+
+#form{
+	padding-bottom: 30px;
+	padding-top: 10px;
+	  background-color: #d82c2e;
+}
+
+#form h1{
+	text-align: center;
+	color: white;
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: 5px;
+    line-height: 60px;
+    text-transform: uppercase;
+    margin-top: 60px;
+	margin-bottom: 44px;
+	font-family: SketchFlow Print;
+}
+
+#form hr{
+	color: white;
+}
+
+#form label{
+	font-family: SketchFlow Print;
+	font-size: 30px;
+	color: white;
+}
+
+@media (max-width: 1199px) { 
+
+	#jumbotron h1{
+		font-size :80px;
+		margin-bottom: 0px;
+	}
+	p.my-info {
+  	font-size: 19px;
+	}
+
+	#who .col-md-4 h3 {
+		font-size: 27px;
+	}
+
+	.fa-4x {
+  	font-size: 3em;
+	}
+
+	#experience h2 {
+ 	font-size: 29px;
+ 	}
+
+ 	#skills h2 {
+  	font-size: 29px;
+    }
+
+    #skills p {
+  	font-size: 50px;
+  	}
+
+
+ }
+
+
+ @media (max-width: 991px) { 
+
+	#jumbotron h1{
+		font-size :69px;
+		margin-bottom: 0px;
+	}
+
+	p.my-info {
+  	font-size: 18px;
+	}
+
+	#who .col-md-4  {
+		text-align: center;
+	}
+	
+	#who .col-md-4 h3 {
+		font-size: 27px;
+	}
+	#experience h1 {
+    font-size: 50px;
+	}
+
+	.fa-4x {
+  	font-size: 3em;
+	}
+
+	#experience h2 {
+ 	font-size: 29px;
+ 	}
+
+ 	#skills h2 {
+  	font-size: 29px;
+    }
+
+    #skills p {
+  	font-size: 50px;
+  	}
+
+  	#form h1 {
+  	font-size: 50px;
+  	}
+  	.container hr {
+ 	margin-top: 20px;
+ 	}
+
+ 	footer p {
+  	font-size: 32px;
+  	}
+ }
+
+
+
+ @media (max-width: 767px) { 
+
+	#jumbotron h1{
+		
+  		font-size: 44px;
+		margin-bottom: 0px;
+	}
+
+	p.my-info {
+  	font-size: 15px;
+	}
+	
+	#who h1 {
+  	font-size: 44px;
+  	 margin-top: 20px;
+  	 margin-bottom: 20px;
+  	}
+	#who .col-md-4  {
+		text-align: center;
+	}
+	
+	#who .col-md-4 h3 {
+		font-size: 24px;
+	}
+
+
+	#who .col-md-8 h3 {
+		font-size: 21px;
+	}
+	#experience h1 {
+    font-size: 32px;
+	}
+
+	#experience h2 {
+  	font-size: 24px;
+	}
+
+	#skills h1 {
+  	font-size: 42px;
+  	}
+
+	#experience p {
+  	font-size: 20px;
+  	}
+
+	.fa-4x {
+  	font-size: 2em;
+	}
+
+	
+
+ 	#skills h2 {
+  	font-size: 29px;
+    }
+
+    #skills p {
+  	font-size: 39px;
+	}
+
+  	#form h1 {
+  	font-size: 38px;
+  	}
+  	.container hr {
+ 	margin-bottom: 40px;
+ 	margin-top: 0px;
+ 	}
+
+ 	footer p {
+  	font-size: 25px;
+  	}
+ 	#form label {
+  	font-size: 22px;
+  	}
+
+ }
